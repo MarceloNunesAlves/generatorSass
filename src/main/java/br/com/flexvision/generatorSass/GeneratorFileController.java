@@ -23,7 +23,7 @@ public class GeneratorFileController {
 	@RequestMapping(value="/", method=RequestMethod.POST, produces=MediaType.APPLICATION_JSON)
 	public @ResponseBody Boolean save(@RequestBody Parameter p) {
 		StringBuilder colorPrimary = generateStrColor(p.getColorPrimary(), "$mat-flex-primary: (");
-		StringBuilder colorAccent = generateStrColor(p.getColorSecundary(), "$mat-flex-accent: (");
+		StringBuilder colorAccent = generateStrColor(p.getColorSecondary(), "$mat-flex-accent: (");
 		
 		Path path = Paths.get("flex-var.scss");
 

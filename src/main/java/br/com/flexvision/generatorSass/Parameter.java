@@ -3,7 +3,7 @@ package br.com.flexvision.generatorSass;
 public class Parameter {
 
 	private Color colorPrimary;
-	private Color colorSecundary;
+	private Color colorSecondary;
 
 	public Color getColorPrimary() {
 		return colorPrimary;
@@ -11,11 +11,11 @@ public class Parameter {
 	public void setColorPrimary(Color colorPrimary) {
 		this.colorPrimary = colorPrimary;
 	}
-	public Color getColorSecundary() {
-		return colorSecundary;
+	public Color getColorSecondary() {
+		return colorSecondary;
 	}
-	public void setColorSecundary(Color colorSecundary) {
-		this.colorSecundary = colorSecundary;
+	public void setColorSecondary(Color colorSecondary) {
+		this.colorSecondary = colorSecondary;
 	}
 	
 }
